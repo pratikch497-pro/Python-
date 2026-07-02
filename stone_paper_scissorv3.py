@@ -41,6 +41,7 @@ if a.strip() != '':
             print('ERROR')
             print ('PLEASE DO NOT DO SPELLING ERROR.')
             error = input('Do you want to play more: ')
+            total+=1
             if error != 'yes':
                 print ('THANKS FOR PLAYING THE GAME.')
                 print(f'Your score is {score}.')
@@ -76,4 +77,4 @@ if a.strip() != '':
                 total+=1
                 print (f'Computer choice {c}')
 else:
-    print('ENTER YOUR NAME FIRST NEXT TIME.')
+    print('ENTER YOUR NAME FIRST FROM NEXT TIME.')
