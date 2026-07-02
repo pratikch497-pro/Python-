@@ -76,4 +76,4 @@ if a.strip() != '':
                 total+=1
                 print (f'Computer choice {c}')
 else:
-    print('ENTER YOUR NAME FIRST FROM NEXT TIME.')
+    print('ENTER YOUR NAME FIRST NEXT TIME.')
